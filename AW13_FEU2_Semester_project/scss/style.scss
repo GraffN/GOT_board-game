@@ -1,0 +1,9 @@
+$head-font: 'Sofia', cursive;
+$text-font: 'Charm', cursive;
+$info-padding: 5px;
+
+$green: #238723;
+$red: #8e2323;
+@import "_partials/start.scss";
+@import "_partials/cards.scss";
+@import "_partials/board.scss";

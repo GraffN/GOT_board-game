@@ -1,0 +1,95 @@
+
+
+#container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+    
+    
+}
+.card{
+    width: 250px;
+    height: 570px;
+    background: #8a5119;
+    display: inline-grid;
+    border: 10px solid #3b2015;
+    border-radius: 10px;
+    
+    &--info{
+        
+        color: black;
+        width: 250px;
+        height: 425px;
+        margin: 0 auto;
+        line-height: 1.5;
+        font-size: 15px;
+        font-weight: 700;
+        
+        &__name{
+            text-align: center;
+            font-size: 20px;
+            padding: $info-padding;
+            padding-bottom: 15px;
+            font-family: $head-font;
+            
+        }
+        &__gender{
+            text-align: center;
+            padding: $info-padding;
+            font-family: $text-font;
+            
+        }
+        &__title{
+            padding: $info-padding;
+            font-family: $text-font;
+            
+        }
+        &__alias{
+            padding: $info-padding;
+            font-family: $text-font;
+            
+        }
+        &__born{
+            padding: $info-padding;
+            font-family: $text-font;
+            
+        }
+        &__died{
+            padding: $info-padding;
+            font-family: $text-font;
+            
+        }
+        &__playedBy{
+            padding: $info-padding;
+            font-family: $text-font;
+            
+           
+        }
+        
+       
+        
+    
+    }
+    &--sigil img{
+        margin-top: 10px;
+        width:230px;
+        height: auto;
+        
+        
+            
+    }
+}
+.btnSelect{
+    
+    width: 270px;
+    height: 600px;
+    margin: 5px;
+    background: none;
+    border:none;
+    
+}
+.btnSelect:hover{
+    opacity: .7;
+    cursor: pointer;
+}

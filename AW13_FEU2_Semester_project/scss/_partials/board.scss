@@ -1,0 +1,63 @@
+
+canvas{
+    padding: 30px;
+    align-self: center;
+}
+.diceWrap{
+    display: flex;
+    height: 350px;
+    width: 80%;
+    margin: 0 auto;
+    
+    &--button{
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+        font-size: 40px;
+        border-radius: 40px;
+        border: 3px solid black;
+        font-family: $head-font;
+        background-color: indianred;
+        
+    
+    }
+    &--button:hover{
+        opacity: .7;
+        }
+    &--text{
+        
+    }
+    &--yourRoll{
+        
+    }
+}
+.diceRoll{
+    display: block;
+    margin-left: 30px;
+    
+    &--text{
+        margin: 30px;
+        text-align: center;
+        font-size: 30px;
+        font-family: $text-font;
+    }
+    &--yourRoll{
+        text-align: center;
+        font-size: 40px;
+        color: $green;
+        font-family: $text-font;
+    }
+}
+.trapWrap{
+    display: block;
+    padding-left: 30px;
+    
+    
+    &--text{
+        text-align: center;
+        font-size: 30px;
+        font-family: $text-font;
+        color: $red;
+        width: 300px;
+    }
+}
